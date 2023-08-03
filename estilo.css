@@ -1,0 +1,62 @@
+body{
+  background-color: bisque;
+   margin-left: 70mm;
+    margin-right: 70mm ;
+    font-size: x-large;
+
+}
+ 
+#avatar{
+    width: 65mm;
+    border-radius: 25mm;
+    border: 5px solid bisque;
+}
+h1{
+    color: darksalmon;
+}
+
+
+.primero a{
+    color: black;
+}
+
+.head{
+   text-align: center;
+   background-color: white;
+   border: beige solid 1mm;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cont{
+  background-color: white;
+ text-align: center;
+ color: darksalmon;
+ border: beige solid 1mm;
+}
+#cont input{
+    color: darksalmon;
+}
+
+.mail{
+    font-size: medium;
+}
+.link{
+    font-size: xx-large;
+}
+
+#apr img{
+    width: 300px;
+    height: 200px;
+}
+#boton{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: white;
+    border-color:  darksalmon;
+    border-width: 3px;
+    border-style: solid;
+}
