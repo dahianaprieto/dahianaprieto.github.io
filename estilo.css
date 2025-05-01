@@ -1,7 +1,6 @@
 body{
-  background-color: bisque;
-   margin-left: 70mm;
-    margin-right: 70mm ;
+  background-color: white;
+  
     font-size: x-large;
 
 }
@@ -9,7 +8,7 @@ body{
 #foto_personal{
     width: 65mm;
     border-radius: 25mm;
-    border: 5px solid bisque;
+    border: 5px solid blueviolet;
 }
 h1{
     color: darksalmon;
@@ -21,14 +20,20 @@ h1{
 }
 
 .head{
+    width: 100%;
+    height: 100vh;
    text-align: center;
-   background-color: white;
-   border: beige solid 1mm;
+   background-image: url('header.png');
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   /*border: blueviolet solid 1mm;*/
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 #cont{
   background-color: white;
- text-align: center;
+  text-align: center;
  color: darksalmon;
  border: beige solid 1mm;
 }
@@ -59,4 +64,9 @@ h1{
     border-color:  darksalmon;
     border-width: 3px;
     border-style: solid;
+}
+
+.contenido{
+    margin-left: 70mm;
+    margin-right: 70mm ;
 }
